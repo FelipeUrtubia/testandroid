@@ -14,7 +14,7 @@ public class Main2Activity extends AppCompatActivity {
     }
 
     public void cambiarVista (View view) {
-        Intent intetn = new Intent(this, MainActivity.class);
+        Intent intetn = new Intent(this, Main3Activity.class);
         startActivity(intetn);
     }
 }
